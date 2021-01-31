@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+
+
+body {
+
+	background-color: #1565C0 !important;
+    font-family: 'Montserrat', sans-serif !important;
+	/*background-image: linear-gradient(to right,#e8e8e8,#aee6e6) */
+}
+.container{
+    background-color: #e8e8e8;
+    margin: 59px;
+    /*padding: 40px;*/
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 25px; 
+}
+
+.left-cont {
+	padding: 40px;
+	/*border-top-left-radius: 20px; */
+}
+.right-cont {
+	background-color: #ffffff !important; 
+	position: relative;
+    /*border-bottom-right-radius: 20px;*/
+}
+
+
+
+.content {
+	margin-right: 50px !important;
+	width: 412px !important;
+	float: right;
+	/*margin: 88px ;*/
+	padding: 38px;
+    border-radius: 20px !important;
+    text-align: center;
+    background-color: #ffffff; 
+}
+
+.text {
+
+	margin: 20px;
+	border-radius: 20px;
+	outline: none;
+	position: relative;
+    left: 34px;
+    bottom: 4px;
+    color: #556052;
+}
+
+.email {
+	margin: 20px;
+	border-radius: 20px;
+	outline: none;
+	position: relative;
+    left: 34px;
+    bottom: 4px;
+    color: #556052;
+}
+
+.use {
+	font-family: 'Nerko One', cursive;
+	font-size: 20px;
+	font-weight: 500;
+	color: #556052;
+}
+
+.textarea {
+	margin: 20px;
+	border-radius: 20px;
+	outline: none;
+	width: -webkit-fill-available;
+	resize: none;
+}
+
+
+.quote {
+	padding: 30px 38px 0;
+	font-size: 32px;
+	font-weight: 500;
+	color: #556052;
+}
+
+.boy-img {
+	margin-left: 110px ;
+    padding-bottom: 20px;
+}
+
+.bush {
+	position: absolute;
+	z-index: 1;
+	top: 301px;
+	left: 675px;
+	}
+
+.btn {
+	width: 200px;
+	background-color: #ffc107 !important;
+
+}
+.Submit {
+	display: contents;
+	font-weight: 500 !important;
+	font-size: 17px;
+}
+

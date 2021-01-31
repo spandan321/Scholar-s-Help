@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>feedback form</title>
+	<link rel="stylesheet" type="text/css" href="feedback.css">
+	<script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+
+<script>
+function SubForm (){
+    $.ajax({
+        url:'https://api.apispreadsheets.com/data/4583/',
+        type:'post',
+        data:$("#myForm").serializeArray(),
+        success: function(){
+          alert("Form Data Submitted :)");
+          window.location = 'home.html'
+        },
+        error: function(){
+          alert("There was an error :(")
+        }
+    });
+}
+</script>
+</head>
+<body>
+
+<div>
+	
+ <form id="myForm">
+ 	
+ 	<input type="text" name="Full_name" placeholder="Full_name">
+ 	<br>
+ 	<input type="email" name="Email" placeholder="Email_address">
+ 	<br>
+ 	<input type="checkbox" name="satisfied" value="yes">
+ 	<br>
+ 	<input type="checkbox" name="satisfied" value="no">
+
+     	
+ </form>
+ <button onclick="SubForm()" class="btn" type="Submit">Submit</button>	
+
+
+
+</div>
+
+
+</body>
+</html>

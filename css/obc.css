@@ -1,0 +1,292 @@
+body {
+  background-color: #F2F2F2;
+}
+
+hr {
+  border-top: 8px dotted #2ec1ac;
+  width: 15%;
+  margin-top: 47px;
+  margin-bottom: 41px;
+}
+
+.navbar {
+  background-image: linear-gradient(to right,#A7F4FF,#05F1FA,#05AEFA,#039CFB);
+}
+
+.name {
+  font-size: 20px;
+}
+
+.container-fluid {
+  height: 300px;
+  background-image: linear-gradient(to right,#A7F4FF,#05F1FA,#05AEFA,#039CFB);
+  /* background-color: #66bfbf; */
+}
+
+.heading {
+  font-size: 46px;
+  margin-left: 113px;
+  padding-top: 170px;
+  font-weight: 600;
+}
+
+
+.container {
+  border-radius: 25px;
+  margin-top: 20px;
+
+  width: 60%;
+  height: 300px;
+  background-image: linear-gradient(to right,#74ebd5,#ACB6E5);
+}
+
+.pr {
+  font-size: 36px;
+  text-align: center;
+  padding-top: 20px;
+}
+.blocks {
+  margin-top: 60px;
+  margin-left: 110px;
+}
+
+.btn {
+  font-size: 20px;
+}
+#post {
+  height: auto;
+  padding-top: 69px;
+  /* background-color: black; */
+}
+.text-center {
+  font-size: 30px;
+  font-weight: 600;
+  /* margin-top: 50px; */
+  color: #5B86E5;
+}
+
+.box {
+  padding-left: 115px;
+  padding-right: 30px;
+  margin-top: 46px;
+}
+
+
+.row {
+  margin-bottom: 29px;
+
+}
+.card {
+  background-color: #d2f6c5;
+}
+
+.row2 .card {
+  margin-right: 119px;
+  margin-bottom: 29px;
+}
+
+.RP-card {
+  height: 454px;
+}
+
+.DP-card {
+  height: 220px;
+}
+
+
+
+/* ------------ footer content ------------------------- */
+
+.footer-class {
+  background-image: linear-gradient(#05dfd7,#1dd3bd);
+  margin-top: 90px;
+  padding: 80px 50px 60px 90px;
+  color: #fff;
+}
+/*
+.fas {
+  font-size: 30px;
+    position: relative;
+    top: -11px;
+    left: -9px;
+} */
+.info {
+  padding-left: 45px;
+}
+.address {
+  font-size: 45px;
+}
+
+.phone {
+  font-size:30px;
+}
+.mail {
+  font-size: 30px;
+  position: relative;
+  top: 8px;
+}
+
+.fot-title {
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+  /* text-shadow: 2px 2px #ffc93c; */
+}
+
+.text {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+/* .col-lg-6.contact-icons {
+padding-left: 85px;
+padding-top: 10px;
+} */
+.footer-class .row {
+   margin-bottom: 0;
+}
+
+.icons {
+  color: #fff;
+}
+.ic {
+  text-align: center;
+}
+
+.sub-title {
+  margin-top: 61px;
+  font-size: 21px;
+  font-weight: bold;
+  /* text-shadow: 2px 2px #ffc93c; */
+}
+
+.form-group {
+  margin-top: 24px;
+  padding-left: 18px;
+  padding-right: 0;
+}
+
+
+input {
+  height: 33px;
+  border-radius: 20px;
+  border: 1px solid #FFFFFF;
+  outline: none;
+}
+
+/* ----------------feedback form--------------- */
+.SEND-BT {
+  color: #FFFFFF !important;
+  /* background-color: #555555 !important; */
+  font-size: 1rem !important;
+  font-weight: 400 !important;
+  padding: .375rem .75rem !important;
+  width: 92.97px !important;
+  height: 38px !important;
+  /* opacity: 1 !important; */
+}
+
+.area {
+  border: 2px solid #a6a6a4;
+  border-radius: 15px !important;
+  width: 100%;
+  margin-right: 10px;
+}
+
+.modal-fade {
+  background-image: linear-gradient(#C9D6FF, #E2E2E2);
+}
+.modal-header {
+  text-align: center;
+}
+.mod {
+  text-align: center;
+}
+.btn.SEND-BT {
+  font-size: 1rem !important;
+
+}
+
+.row.e {
+  margin-bottom: 1rem !important;
+}
+.modal-content {
+  color: #fff !important;
+  background-color: #00b7c2 !important;
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+  border-top-right-radius: 20px !important;
+  border-bottom-right-radius: 20px !important;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.modal-dialog {
+  position: relative;
+  left: -53px !important;
+  top: 34px !important;
+}
+
+.col-1 {
+  font-family: 'Montserrat', sans-serif;
+  height: 484px !important;
+  width: 250px !important;
+  padding: 0 !important;
+  position: relative;
+  top: 1px;
+  left: 16px;
+  background-color: #FCF9F9 !important;
+  border-top-left-radius: 20px !important;
+  border-bottom-left-radius: 20px !important;
+}
+
+.feedback-title {
+  padding: 27px;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+/* -----------------rating---------------------- */
+.rate {
+  /* float: left; */
+  position: relative;
+  top: -106px;
+  right: 18px;
+  height: 46px;
+  padding: 0 10px;
+}
+
+.rate:not(:checked)>input {
+  position: absolute;
+  top: -9999px;
+}
+
+.rate:not(:checked)>label {
+  float: right;
+  width: 1em;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 30px;
+  color: #ccc;
+}
+
+.rate:not(:checked)>label:before {
+  content: '★ ';
+}
+
+.rate>input:checked~label {
+  color: #ffc700;
+}
+
+.rate:not(:checked)>label:hover,
+.rate:not(:checked)>label:hover~label {
+  color: #deb217;
+}
+
+.rate>input:checked+label:hover,
+.rate>input:checked+label:hover~label,
+.rate>input:checked~label:hover,
+.rate>input:checked~label:hover~label,
+.rate>label:hover~input:checked~label {
+  color: #c59b08;
+}
